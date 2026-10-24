@@ -1105,7 +1105,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center space-y-10">
           <div className="space-y-3">
             <div className="text-xs font-mono-tabular uppercase tracking-widest text-[#D97706]">
-              Direct Inquiries &amp;
+              Direct Inquiries amp;
             </div>
             <h2 className="text-3xl sm:text-5xl font-serif-display font-medium text-[#FBF9F5]">
               Contact Justin Reddy
