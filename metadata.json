@@ -1,0 +1,6 @@
+{
+  "name": "ReddyMade — Justin Reddy 3D Seychelles Art Gallery",
+  "description": "An immersive 3D virtual art pavilion in Mahé, Seychelles showcasing the charcoal drawings and vibrant impasto acrylic paintings of Seychellois artist Justin Reddy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
