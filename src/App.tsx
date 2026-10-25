@@ -558,14 +558,6 @@ export default function App() {
               <span className="hidden lg:inline">{isMuted ? 'Sound Off' : 'Soundscape'}</span>
             </button>
 
-            {/* Prominent Enter 3D Pavilion Button */}
-            <button
-              onClick={() => handleEnter3DPavilion()}
-              className="px-3.5 sm:px-4 py-2 text-xs font-semibold rounded-lg bg-[#D97706] hover:bg-[#B45309] text-white flex items-center gap-1.5 shadow-lg shadow-[#D97706]/20 transition-all active:scale-95 cursor-pointer whitespace-nowrap"
-            >
-              <Compass className="w-4 h-4" />
-              <span>Enter 3D Virtual Pavilion</span>
-            </button>
 
             {/* Mobile Menu Hamburger */}
             <button
@@ -618,16 +610,6 @@ export default function App() {
             >
               Material Language
             </a>
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                handleEnter3DPavilion();
-              }}
-              className="w-full text-left px-3 py-2.5 rounded-lg bg-[#D97706] text-white font-semibold flex items-center justify-between"
-            >
-              <span>Enter 3D Virtual Pavilion</span>
-              <Compass className="w-4 h-4" />
-            </button>
           </div>
         )}
       </header>
@@ -1054,20 +1036,22 @@ export default function App() {
               <a href="#highlights" className="hover:text-white transition-colors">
                 Highlights
               </a>
-              <a href="#preview-3d" className="hover:text-white transition-colors">
+              <button
+                onClick={() => handleEnter3DPavilion()}
+                className="hover:text-white transition-colors cursor-pointer"
+              >
                 3D Pavilion
-              </a>
+              </button>
               <a href="#catalogue" className="hover:text-white transition-colors">
                 Catalogue ({REDDYMADE_ARTWORKS.length})
               </a>
+              <a href="#materials" className="hover:text-white transition-colors">
+                Material Language
+              </a>
             </div>
-
-            <button
-              onClick={() => handleEnter3DPavilion()}
-              className="px-3 py-1.5 rounded-lg bg-[#D97706] text-white font-medium hover:bg-[#B45309] transition-colors cursor-pointer"
-            >
-              Enter 3D Gallery
-            </button>
+            <div className="text-right text-[#78716C] text-xs">
+              © {new Date().getFullYear()} Justin Reddy
+            </div>
           </div>
         </div>
       </footer>
