@@ -125,7 +125,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     indexNumber: '01',
     title: 'Lakaz Kreol dan Montanny (Hillside Plantation House)',
     creoleSubtitle: 'Original charcoal drawing on aged cream archival paper',
-    year: '2023',
+    year: '2026',
     medium: 'Charcoal and raw graphite on aged archival cotton paper',
     surfaceType: 'charcoal-paper',
     dimensions: '76.0 × 56.0 cm (4:3 horizontal plate)',
@@ -153,9 +153,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'fishermen-shore-sketch',
     indexNumber: '02',
-    title: 'Lartet Peser (Return of the Artisanal Fishermen)',
+    title: 'Paser (Return of the Artisanal Fishermen)',
     creoleSubtitle: 'Minimalist figurative study on off-white paper',
-    year: '2023',
+    year: '2026',
     medium: 'Compressed charcoal and Conté crayon on warm laid paper',
     surfaceType: 'charcoal-paper',
     dimensions: '72.0 × 54.0 cm (4:3 horizontal plate)',
@@ -185,7 +185,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     indexNumber: '03',
     title: 'Granmoun Losean (Elder of the Inner Islands)',
     creoleSubtitle: 'High-contrast charcoal portrait drawing on paper',
-    year: '2023',
+    year: '2026',
     medium: 'Vine charcoal and dry brush graphite on cold-press rag paper',
     surfaceType: 'charcoal-paper',
     dimensions: '56.0 × 76.0 cm (3:4 vertical plate)',
@@ -213,9 +213,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'ox-cart-rest-drawing',
     indexNumber: '04',
-    title: 'Poz Saret (The Ox-Cart Rest at La Digue)',
+    title: 'Pous (The Ox-Cart Rest In Victoria)',
     creoleSubtitle: 'Charcoal and pencil drawing on paper',
-    year: '2023',
+    year: '2026',
     medium: 'Graphite pencil and charcoal on heavyweight archival paper',
     surfaceType: 'charcoal-paper',
     dimensions: '58.0 × 78.0 cm (3:4 vertical plate)',
@@ -245,7 +245,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     indexNumber: '05',
     title: 'Anse Source d’Argent: Vibrations of Granite & Tide',
     creoleSubtitle: 'Original graphic acrylic painting on canvas',
-    year: '2024',
+    year: '2026',
     medium: 'Graphic impasto acrylic on stretched canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '140.0 × 100.0 cm (4:3 horizontal plate)',
@@ -275,7 +275,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     indexNumber: '06',
     title: 'Lalyans Kreol (Creole Alliance Diptych)',
     creoleSubtitle: 'Original split-canvas acrylic painting',
-    year: '2024',
+    year: '2026',
     medium: 'Bold graphic acrylic on linen canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '120.0 × 90.0 cm (4:3 horizontal plate)',
@@ -303,9 +303,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'golden-coconuts-palm',
     indexNumber: '07',
-    title: 'Koko Solèy (Crown of Golden Coconuts)',
+    title: 'Koko Soley (Crown of Golden Coconuts)',
     creoleSubtitle: 'Original square acrylic painting',
-    year: '2024',
+    year: '2026',
     medium: 'Impasto acrylic on square cotton duck canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '100.0 × 100.0 cm (1:1 square plate)',
@@ -337,7 +337,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-01-reclining-sanguine',
     indexNumber: '09',
-    title: 'Etid Kourb dan Sanguin (Reclining Figure in Sanguine)',
+    title: 'Reading Figure',
     creoleSubtitle: 'Sanguine conté and brush gesture on parchment',
     year: '1985',
     medium: 'Sanguine conté wash and dry brush on aged laid paper',
@@ -358,7 +358,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.045,
     roughness: 0.88,
     curatorialNote:
-      'A fluid life drawing of a reclining figure executed in deep sanguine brushstrokes. Justin Reddy captures the sculptural arc of the spine, shoulders, and bent leg with sweeping, energetic calligraphic contours on vintage toned paper.',
+      'A fluid life drawing of a reading figure executed in deep sanguine brushstrokes. Justin Reddy captures the sculptural arc of the spine, shoulders, and bent leg with sweeping, energetic calligraphic contours on vintage toned paper.',
     textureNote:
       'Visible tooth of aged, tea-stained parchment paper with rapid directional brush strokes and wet-on-dry pigment pooling.',
     paletteSwatches: ['#8C2D19', '#EFE4CD', '#3D150B', '#C9A982'],
@@ -367,7 +367,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-02-fetal-jr',
     indexNumber: '10',
-    title: 'Poz Koube (Fetal Posture Study, Signed JR)',
+    title: 'Reclined Figure',
     creoleSubtitle: 'Expressive red ink wash figure on parchment',
     year: '1985',
     medium: 'Red ink wash and brush gesture on handmade parchment paper',
@@ -388,7 +388,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.048,
     roughness: 0.87,
     curatorialNote:
-      'Signed with Reddy’s signature "JR" cipher in the lower right, this compact, introspective gesture study renders a curled fetal posture with muscular, directional brush tracks over a pale antique ground.',
+      'Signed with Reddy’s signature "JR" cipher in the lower right, this compact, introspective gesture study renders a reclined figure with muscular, directional brush tracks over a pale antique ground.',
     textureNote:
       'Dynamic red ink brushwork feathering across fibrous, unpressed handmade parchment with delicate ink splatters.',
     paletteSwatches: ['#992E22', '#F2E8D5', '#451810', '#BF9E78'],
@@ -397,7 +397,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-03-seated-plum',
     indexNumber: '11',
-    title: 'Seated Contemplative Figure (31.1.85)',
+    title: 'Seated Figure',
     creoleSubtitle: 'Signed and dated study in plum ink',
     year: '1985',
     medium: 'Deep plum sepia ink and dry-brush hatching on rag paper',
@@ -427,7 +427,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-04-upraised-arms',
     indexNumber: '12',
-    title: 'Figure Resting with Arms Upraised (31.1.85)',
+    title: 'Seated Figure',
     creoleSubtitle: 'Bold black sumi-ink gesture drawing',
     year: '1985',
     medium: 'Sumi ink, compressed carbon, and wash on laid paper',
@@ -448,7 +448,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.046,
     roughness: 0.86,
     curatorialNote:
-      'Dated 31 January 1985, this dynamic drawing captures a model leaning back with elbows winged wide above the head. Heavy calligraphic ink strokes define the torso and thighs with striking graphic immediacy.',
+      'Dated 31 January 1985, this dynamic drawing captures a seated model leaning back with elbows winged wide above the head. Heavy calligraphic ink strokes define the torso and thighs with striking graphic immediacy.',
     textureNote:
       'Velvety pitch-black carbon strokes varying from dry scratch marks to saturated washes against warm crinkled archival paper.',
     paletteSwatches: ['#1C1B19', '#EFE6D2', '#585348', '#B3A58C'],
@@ -457,7 +457,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-05-crouching-islander',
     indexNumber: '13',
-    title: 'Crouching Islander Study',
+    title: 'Seated Figure',
     creoleSubtitle: 'Dynamic brush drawing on parchment paper',
     year: '1985',
     medium: 'Carbon ink and bristle brush on aged rag paper',
@@ -478,7 +478,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.045,
     roughness: 0.88,
     curatorialNote:
-      'A rapid, visceral study of a figure crouched close to the ground, reminiscent of traditional Seychellois shoreline fishermen resting between tides. Sweeping bristle brush strokes render physical tension and kinetic balance.',
+      'A study of a seated figure close to the ground, reminiscent of traditional Seychellois shoreline fishermen resting between tides. Sweeping bristle brush strokes render physical tension and kinetic balance.',
     textureNote:
       'Dry bristle drag marks creating striations across the shoulder, back, and calves over creamy buff-colored paper.',
     paletteSwatches: ['#141312', '#F0E7D4', '#5A5346', '#9C8F79'],
@@ -487,7 +487,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'shading-06-tucked-figure-ochre',
     indexNumber: '14',
-    title: 'Tucked Figure with Ochre Ring',
+    title: 'Seated Figure',
     creoleSubtitle: 'Ink wash gesture study with mineral ochre accent',
     year: '1985',
     medium: 'Carbon ink, dry brush, and raw sienna gouache mark on paper',
@@ -581,7 +581,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'sculpture-03-elongated-mask',
     indexNumber: '17',
-    title: 'Elongated Mask with Louvered Brow',
+    title: 'Mask',
     creoleSubtitle: 'Carved solid timber mask with horizontal comb incisions',
     year: '2016',
     medium: 'Sculpted native hardwood with gouge fluting and pierced openings',
@@ -641,7 +641,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'sculpture-05-carved-face-stippled',
     indexNumber: '19',
-    title: 'Carved Face with Stippled Coiffure',
+    title: 'Carved Face',
     creoleSubtitle: 'Dark patinated African-heritage timber face',
     year: '2016',
     medium: 'Burnished and charred hardwood with decorative stippling',
@@ -671,7 +671,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'sculpture-06-horned-mask-143',
     indexNumber: '20',
-    title: 'Horned Mask (Exhibition Plate 143)',
+    title: 'Mask',
     creoleSubtitle: 'Soaring 69cm ceremonial horned wood carving',
     year: '2016',
     medium: 'Seychelles hardwood, verdigris copper pigment wash, pierced perforations',
@@ -705,10 +705,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'plaster-01-torso-relief',
     indexNumber: '21',
-    title: 'Plaster Torso Relief (Etid Korp)',
-    creoleSubtitle: 'Sculpted wall relief of human figure in coral plaster',
+    title: 'Zaksyoner',
+    creoleSubtitle: 'Sculpted wall relief of human figure in paper mache',
     year: '2016',
-    medium: 'Cast lime plaster, coral sand mortar, and moss pigment wash',
+    medium: 'Paper mache, sculpted wall relief',
     surfaceType: 'plaster-relief',
     dimensions: '72.0 × 44.0 cm',
     accessionNumber: 'RM.PLS.2016.01',
@@ -726,7 +726,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.085,
     roughness: 0.84,
     curatorialNote:
-      'A high-relief sculpture emerging from a heavily pitted lime-and-coral plaster slab, depicting the athletic thighs and waist of a human torso with hands resting on hips.',
+      'Sculpted wall relief of human figure in paper mache. High-relief form exploring anatomical presence and tactile materiality.',
     textureNote:
       'Pitted mineral plaster aggregate with mossy olive patina, granular sand tooth, and sculpted anatomical curves.',
     paletteSwatches: ['#7A7D6B', '#4D5245', '#A5A692', '#2E3029'],
@@ -735,7 +735,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'plaster-02-garden-tools-127',
     indexNumber: '22',
-    title: 'Artisanal Garden Tools (Plate 127)',
+    title: 'Labor Omnia Vincit',
     creoleSubtitle: 'Cast plaster bas-relief of watering can, scythe, and mallet',
     year: '2016',
     medium: 'Textured plaster relief with moss and oxide patina',
@@ -765,7 +765,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'plaster-03-labor-omnia-vincit-126',
     indexNumber: '23',
-    title: 'Labor Omnia Vincit (Plate 126)',
+    title: 'Labor Omnia Vincit',
     creoleSubtitle: 'Latin-inscribed relief with spade, hammer, and field tools',
     year: '2016',
     medium: 'Cast mineral plaster with engraved Latin inscription and iron patina',
@@ -799,10 +799,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-01-weathered-board',
     indexNumber: '24',
-    title: 'Weathered Board Portrait (August 2016)',
-    creoleSubtitle: 'Distressed oil and gouache on aged maritime timber',
+    title: 'Polynesian Face',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Oil paint and charcoal transfer on reclaimed turquoise painted ship wood',
+    medium: 'Mixed media',
     surfaceType: 'wood-carving',
     dimensions: '48.0 × 37.0 cm',
     accessionNumber: 'RM.FAC.2016.01',
@@ -820,7 +820,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.075,
     roughness: 0.68,
     curatorialNote:
-      'Signed "Reddy August 2016" with authentic nail holes along the bottom edge, this portrait emerges from weathered turquoise nautical paint, evocative of an islander face reflected in the surface of peeling boat hull wood.',
+      'Polynesian face mixed media study by Justin Reddy, exploring weathered surfaces, organic pigments, and facial forms.',
     textureNote:
       'Peeling turquoise oil layers with exposed weathered brown timber grain, authentic screw/nail holes, and painterly graphite features.',
     paletteSwatches: ['#5B8999', '#24201E', '#938472', '#B55A4C'],
@@ -829,10 +829,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-02-young-islander',
     indexNumber: '25',
-    title: 'Portrait of a Young Islander',
-    creoleSubtitle: 'Expressive gouache portrait on card panel, signed Reddy',
+    title: 'Pti Ratnan',
+    creoleSubtitle: 'Acrylic on card',
     year: '2016',
-    medium: 'Gouache and dry pigment on warm cardboard board',
+    medium: 'Acrylic on card',
     surfaceType: 'charcoal-paper',
     dimensions: '53.0 × 40.5 cm',
     accessionNumber: 'RM.FAC.2016.02',
@@ -850,7 +850,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.05,
     roughness: 0.78,
     curatorialNote:
-      'Signed "Reddy" in soft graphite, this haunting portrait captures a youthful Seychellois boy in an open collar with deep, inquisitive brown eyes and olive-toned skin washes.',
+      'Acrylic on card portrait by Justin Reddy, capturing youthful expression with nuanced tonal marks.',
     textureNote:
       'Soft scumbled olive and ochre gouache glazes over raw cream card, with fluid dry-brush definition of the hair and collar.',
     paletteSwatches: ['#A57D51', '#37322B', '#7A9188', '#D7BA91'],
@@ -859,10 +859,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-03-sandy-yellow-panel',
     indexNumber: '26',
-    title: 'Sandy (Portrait on Yellow Timber Panel)',
-    creoleSubtitle: 'Sun-drenched portrait signed and inscribed Sandy',
+    title: 'Sandy (Portrait on Card)',
+    creoleSubtitle: 'Portrait on card',
     year: '2016',
-    medium: 'Oil and ink on vivid golden-yellow salvaged wood panel',
+    medium: 'Portrait on card',
     surfaceType: 'wood-carving',
     dimensions: '62.0 × 31.0 cm',
     accessionNumber: 'RM.FAC.2016.03',
@@ -880,7 +880,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.07,
     roughness: 0.65,
     curatorialNote:
-      'Painted directly onto a radiant bright saffron-yellow wooden plank, inscribed with the subject’s name "Sandy" in expressive charcoal script below curly locks and luminous eyes.',
+      'Portrait on card inscribed "Sandy", featuring radiant saffron tones and expressive contour brushwork.',
     textureNote:
       'Vibrant golden yellow timber ground with translucent oil washes outlining curls, eyelids, and facial planes.',
     paletteSwatches: ['#E5B22E', '#965A29', '#372719', '#F4DF77'],
@@ -889,10 +889,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-04-mosaic-bearded-islander',
     indexNumber: '27',
-    title: 'Mosaic Portrait of Bearded Islander',
-    creoleSubtitle: 'Torn-paper collage mosaic with deep teal and indigo tesserae',
+    title: 'Self Portrait (Collage)',
+    creoleSubtitle: 'Paper collage',
     year: '2016',
-    medium: 'Cut and torn hand-painted paper collage on heavy backing board',
+    medium: 'Collage',
     surfaceType: 'mixed-canvas',
     dimensions: '58.0 × 42.0 cm',
     accessionNumber: 'RM.FAC.2016.04',
@@ -910,7 +910,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.082,
     roughness: 0.58,
     curatorialNote:
-      'A tour de force of tactile mosaic collage: hundreds of tiny hand-cut paper facets and weathered paper strips assemble the face, hair, and beard of a mature man against rich turquoise plumage.',
+      'Self portrait collage by Justin Reddy: tactile mosaic of hand-torn paper tesserae and printed paper fragments.',
     textureNote:
       'Multi-layered physical paper relief with distinct paper edges, newsprint typography fragments, and glossy varnish coats.',
     paletteSwatches: ['#1E6E82', '#2A201C', '#A89481', '#3A334A'],
@@ -919,10 +919,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-05-steve-panel',
     indexNumber: '28',
-    title: 'Steve (Island Mariner Portrait)',
-    creoleSubtitle: 'Mixed media on panel, inscribed Steve and signed Reddy',
+    title: 'Steve',
+    creoleSubtitle: 'Acrylic on paper',
     year: '2016',
-    medium: 'Oil glaze, charcoal, and graphite on distressed panel',
+    medium: 'Acrylic on paper',
     surfaceType: 'wood-carving',
     dimensions: '54.0 × 37.0 cm',
     accessionNumber: 'RM.FAC.2016.05',
@@ -940,7 +940,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.065,
     roughness: 0.72,
     curatorialNote:
-      'Inscribed with the subject’s name "Steve" and signed "Reddy" at the lower right. Shows a young fisherman in a cap and pendant necklace, rendered with warm ochres and sienna glazes.',
+      'Acrylic on paper portrait by Justin Reddy, inscribed Steve and finished with earth ochres and sienna glazes.',
     textureNote:
       'Warm raw umber and burnt sienna glazes on wood grain, with delicate graphite line flourishes defining the cap and necklace.',
     paletteSwatches: ['#9A643E', '#3D2F28', '#CBB089', '#575543'],
@@ -949,10 +949,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'face-06-self-portrait-glasses-43',
     indexNumber: '29',
-    title: 'Self-Portrait with Glasses (Plate 43)',
-    creoleSubtitle: 'Signed self-portrait in spectacles and patterned shirt',
+    title: 'Roddy',
+    creoleSubtitle: 'Acrylic on card',
     year: '2016',
-    medium: 'Oil and tempera on primed card, plate 43',
+    medium: 'Acrylic on card',
     surfaceType: 'mixed-canvas',
     dimensions: '56.0 × 45.0 cm',
     accessionNumber: 'RM.FAC.2016.06',
@@ -970,7 +970,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.062,
     roughness: 0.65,
     curatorialNote:
-      'Exhibition monograph plate 43: A candid self-portrait of artist Justin Reddy wearing clear-framed glasses and a moustache, painted with impressionistic faceted patches of sky blue, mauve, and viridian.',
+      'Acrylic on card portrait by Justin Reddy, painted with faceted patches of color and confident mark-making.',
     textureNote:
       'Chunky, energetic oil brushstrokes on heavy card with subtle impasto marks across the cheek, nose, and spectacles bridge.',
     paletteSwatches: ['#6B94A6', '#877047', '#252528', '#D6BA96'],
@@ -983,10 +983,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-01-water-pump-cargo',
     indexNumber: '30',
-    title: 'Dengan Cermat: Water Pump Cargo Stencil',
-    creoleSubtitle: 'Industrial shipping box collage with face transfer',
+    title: 'Daniel',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Found corrugated shipping carton, industrial stencil ink, and face wash',
+    medium: 'Mixed media',
     surfaceType: 'found-cardboard',
     dimensions: '61.0 × 48.5 cm',
     accessionNumber: 'RM.EXP.2016.01',
@@ -1004,7 +1004,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.08,
     roughness: 0.82,
     curatorialNote:
-      'A signature "ReddyMade" ready-made: cardboard salvaged from an Indian Ocean shipping container stamped "DENGAN CERMAT / HANDLE WITH CARE / WATER PUMP", overlaid with an islander face transfer.',
+      'Mixed media work by Justin Reddy, incorporating corrugated cardboard shipping cartons, industrial typography stencils, and face transfer.',
     textureNote:
       'Corrugated cardboard ribs with authentic postal stencils, weathered creases, and wash transfers.',
     paletteSwatches: ['#7A6A34', '#1E4A35', '#26221A', '#C7A755'],
@@ -1013,7 +1013,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-02-corrugated-typography',
     indexNumber: '31',
-    title: 'Embossed Corrugated Typography Relief',
+    title: 'Mud',
     creoleSubtitle: 'Pitted cardboard relief in iron oxide and rust',
     year: '2016',
     medium: 'Perforated corrugated carton, iron oxide paste, and raw ochre',
@@ -1043,10 +1043,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-03-greek-newsprint-foliage-103',
     indexNumber: '32',
-    title: 'Greek Newsprint Foliage (Plate 103)',
-    creoleSubtitle: 'Collage of international newsprint with jade-green glazes',
+    title: 'Trees',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Newsprint strips, translucent jade acrylic wash, and pencil grid',
+    medium: 'Mixed media',
     surfaceType: 'newsprint-collage',
     dimensions: '70.5 × 56.5 cm',
     accessionNumber: 'RM.EXP.2016.03',
@@ -1064,7 +1064,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.055,
     roughness: 0.72,
     curatorialNote:
-      'Exhibition plate 103: Cut strips of foreign press and classifieds are interwoven like the palm ribs of a basket, glazed with translucent seawater greens and tropical jade tints.',
+      'Mixed media composition by Justin Reddy, interweaving cut paper elements with translucent seawater greens and tropical jade tints.',
     textureNote:
       'Semi-transparent jade watercolor glazes revealing printed greek and latin typefaces beneath overlapping strips.',
     paletteSwatches: ['#5C8267', '#A4C097', '#344738', '#D6D3BD'],
@@ -1073,10 +1073,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-04-striated-woodgrain-96',
     indexNumber: '33',
-    title: 'Striated Woodgrain Surface (Plate 96)',
-    creoleSubtitle: 'Distressed grain study with peeling paper strata',
+    title: 'Camouflage',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Striated plywood, white gesso scumble, and mineral wash',
+    medium: 'Mixed media',
     surfaceType: 'wood-carving',
     dimensions: '70.0 × 55.5 cm',
     accessionNumber: 'RM.EXP.2016.04',
@@ -1094,7 +1094,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.082,
     roughness: 0.74,
     curatorialNote:
-      'Monograph plate 96: Justin Reddy explores the tactile qualities of weathered cedar and maritime grain, peeling layers back to reveal raw wood fibres and pale chalk residues.',
+      'Mixed media exploration by Justin Reddy, revealing raw wood fibres, striated textures, and subtle chalk residues.',
     textureNote:
       'Vertical timber striations with torn paper fragments, white lime dry-brush, and warm mahogany undertones.',
     paletteSwatches: ['#7A3D2A', '#D8CBB6', '#2E1E17', '#9E694F'],
@@ -1103,10 +1103,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-05-sensational-deals-stencil',
     indexNumber: '34',
-    title: 'Sensational Deals (Four Stencil Visages)',
-    creoleSubtitle: 'Pop-constructivist commentary on consumer culture',
+    title: 'Sensation',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Screenprint stencil, wood block, and newsprint decoupage',
+    medium: 'Mixed media',
     surfaceType: 'found-cardboard',
     dimensions: '58.5 × 44.5 cm',
     accessionNumber: 'RM.EXP.2016.05',
@@ -1124,7 +1124,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.075,
     roughness: 0.76,
     curatorialNote:
-      'Four mirrored islander silhouettes surround the bold commercial slogan "SENSATIONAL DEALS", contrasting ancestral island human dignity with commercial commodity typography.',
+      'Mixed media composition by Justin Reddy, combining screenprint stencils, wood block impressions, and newsprint decoupage.',
     textureNote:
       'Sharp black commercial stencil lettering stamped over distressed newsprint collage and mottled wood textures.',
     paletteSwatches: ['#475C57', '#9E6641', '#1C1F1D', '#D0BF98'],
@@ -1133,10 +1133,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-06-inverted-water-glaze-92',
     indexNumber: '35',
-    title: 'Inverted Type & Water Glaze (Plate 92)',
-    creoleSubtitle: 'Luminous liquid color fields over mirrored typography',
+    title: 'Sensation',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Transferred reverse typography, lacquer, and radiant oil glazes',
+    medium: 'Mixed media',
     surfaceType: 'mixed-canvas',
     dimensions: '66.8 × 57.8 cm',
     accessionNumber: 'RM.EXP.2016.06',
@@ -1154,7 +1154,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.065,
     roughness: 0.55,
     curatorialNote:
-      'Monograph plate 92: Glowing like sunset reflections off the Indian Ocean, vivid ripples of saffron yellow, flame orange, and cyan wash over reversed printing plates.',
+      'Mixed media composition by Justin Reddy, featuring luminous liquid color fields, lacquer pools, and transferred reverse typography.',
     textureNote:
       'Glossy translucent lacquer pooling over reversed news headlines, saturated orange clouds, and turquoise sea pools.',
     paletteSwatches: ['#E26829', '#24799E', '#E0A824', '#1E252E'],
@@ -1163,10 +1163,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-07-rounded-mosaic-grid',
     indexNumber: '36',
-    title: 'Rounded Typographic Mosaic Grid',
-    creoleSubtitle: 'Modular grid of newsprint tile segments',
+    title: 'Letters',
+    creoleSubtitle: 'Paper collage',
     year: '2016',
-    medium: 'Hand-cut rounded square print tesserae on masonite backing',
+    medium: 'Paper collage',
     surfaceType: 'newsprint-collage',
     dimensions: '55.0 × 53.0 cm',
     accessionNumber: 'RM.EXP.2016.07',
@@ -1184,7 +1184,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.07,
     roughness: 0.62,
     curatorialNote:
-      'A meticulous mosaic formed of over 100 rounded square fragments from international newspapers, creating a concrete-poetry rhythm of black letterforms and red accents.',
+      'Paper collage work by Justin Reddy, composing over 100 rounded square fragments from international newsprint into an architectural concrete-poetry grid.',
     textureNote:
       'Raised rounded paper tiles arranged in strict architectural grid with tactile grout lines and letterpress ink.',
     paletteSwatches: ['#201E1D', '#E2D8C3', '#A32924', '#7D766A'],
@@ -1193,10 +1193,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-08-lagoon-flora-avian',
     indexNumber: '37',
-    title: 'Lagoon Flora & Avian Eye Collage',
-    creoleSubtitle: 'Bioluminescent mixed media painting on panel',
+    title: 'Dreamscape',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Acrylic, lacquer, and torn photo paper on wood panel',
+    medium: 'Mixed media',
     surfaceType: 'mixed-canvas',
     dimensions: '70.4 × 53.4 cm',
     accessionNumber: 'RM.EXP.2016.08',
@@ -1214,7 +1214,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.078,
     roughness: 0.52,
     curatorialNote:
-      'Evoking the primeval rainforest of the Vallée de Mai, phosphorescent emerald and teal washes swirl around a mysterious bird’s eye and jagged silhouettes of endemic takamaka foliage.',
+      'Mixed media painting by Justin Reddy, evoking primeval island canopies with swirling phosphorescent emerald and deep violet washes.',
     textureNote:
       'Iridescent splashes and splattered paint droplets over rich deep forest green glazes and dark violet shadows.',
     paletteSwatches: ['#226857', '#0F2624', '#A84C2C', '#689650'],
@@ -1223,10 +1223,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'explore-09-monograph-title-plate',
     indexNumber: '38',
-    title: 'ReddyMade: Monograph Cover Title Plate',
-    creoleSubtitle: 'The definitive monograph title cover by Justin Reddy',
+    title: 'Carol',
+    creoleSubtitle: 'Mixed media',
     year: '2016',
-    medium: 'Printed title typography and cobalt wash on newsprint transfer',
+    medium: 'Mixed media',
     surfaceType: 'newsprint-collage',
     dimensions: '70.3 × 56.6 cm',
     accessionNumber: 'RM.EXP.2016.09',
@@ -1244,7 +1244,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.05,
     roughness: 0.65,
     curatorialNote:
-      'The celebrated monograph cover plate: "ReddyMade - the work of justin reddy" printed along the right margin, centering an indigo portrait wash over translucent financial and community newsprint.',
+      'Mixed media work by Justin Reddy, with indigo portrait wash layered over translucent newsprint columns.',
     textureNote:
       'Clean monograph typeface inscription running along the vertical edge contrasting with washed indigo brush layers over dense news columns.',
     paletteSwatches: ['#2F5A7E', '#C23727', '#E4DDCA', '#22272E'],
@@ -1257,10 +1257,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-01-ready-made-vessel',
     indexNumber: '39',
-    title: 'The Ready-Made Vessel (Art 01)',
-    creoleSubtitle: 'Mixed media study of cylindrical container with burlap weave',
+    title: 'Bin',
+    creoleSubtitle: 'Mixed media',
     year: '2017',
-    medium: 'Charcoal, gesso wash, and burlap textile weave on aged card',
+    medium: 'Mixed media',
     surfaceType: 'mixed-canvas',
     dimensions: '62.0 × 43.6 cm',
     accessionNumber: 'RM.ART.2017.01',
@@ -1278,7 +1278,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.08,
     roughness: 0.78,
     curatorialNote:
-      'A monumental still life of a cylindrical tin or barrel with burlap mesh, blending charcoal shading, white gesso dribbles, and a dark rim that investigates the sculptural presence of everyday utilitarian objects.',
+      'Mixed media piece by Justin Reddy, investigating everyday utilitarian containers and sculptural textures.',
     textureNote:
       'Cross-hatched burlap scrim glued directly to card, dripping white gesso wash, and charcoal contour shading.',
     paletteSwatches: ['#8B6842', '#2B2927', '#D1C8B4', '#684534'],
@@ -1287,10 +1287,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-02-fiery-mask-passions',
     indexNumber: '40',
-    title: 'Fiery Mask of Passions (Art 02)',
-    creoleSubtitle: 'Intense crimson and vermilion expressionist painting, signed J. Reddy',
+    title: 'Wrath',
+    creoleSubtitle: 'Acrylic on card',
     year: '2018',
-    medium: 'Impasto oil and resin on heavy paper board',
+    medium: 'Acrylic on card',
     surfaceType: 'impasto-acrylic',
     dimensions: '53.0 × 40.8 cm',
     accessionNumber: 'RM.ART.2018.02',
@@ -1308,7 +1308,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.088,
     roughness: 0.45,
     curatorialNote:
-      'Signed "J. Reddy" in delicate script at bottom left, this incandescent composition burns with vermilion and orange glazes, depicting an expressive visage with split-toned eyes and an open sensual mouth.',
+      'Acrylic on card painting by Justin Reddy, burning with intense vermilion, crimson, and expressive force.',
     textureNote:
       'Luminous crimson and vermilion impasto glazes with visible knife impasto marks and glossy resin highlights.',
     paletteSwatches: ['#9A2118', '#DE5223', '#2B1310', '#E5A631'],
@@ -1317,10 +1317,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-03-cubist-engine-wheel',
     indexNumber: '41',
-    title: 'Cubist Engine & Spoked Wheel (Art 03)',
-    creoleSubtitle: 'Constructivist still life of mechanical water pump',
+    title: 'Engine',
+    creoleSubtitle: 'Powder, glue, card',
     year: '2019',
-    medium: 'Oil and charcoal on heavy wood panel',
+    medium: 'Powder, glue, card',
     surfaceType: 'impasto-acrylic',
     dimensions: '46.0 × 62.0 cm',
     accessionNumber: 'RM.ART.2019.03',
@@ -1338,7 +1338,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.075,
     roughness: 0.58,
     curatorialNote:
-      'An analytical cubist homage to machinery and irrigation pumps on Mahé: spoked flywheel, pistons, exhaust pipe, and intake valve deconstructed into rhythmic geometric facets of bronze, cream, and vermilion.',
+      'Powder, glue, card construction by Justin Reddy: deconstructed mechanical engine and spoked wheel in geometric rhythms.',
     textureNote:
       'Faceted geometric planes in muted olive, bronze, and cream with charcoal contour boundaries and subtle wood grain showing through.',
     paletteSwatches: ['#7A6C58', '#38322B', '#A6533A', '#D9D2BE'],
@@ -1347,10 +1347,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-04-biomorphic-emerald-totem',
     indexNumber: '42',
-    title: 'Biomorphic Emerald Totem (Art 04)',
-    creoleSubtitle: 'Vertical modernist figurative painting, signed JR',
+    title: 'Woman',
+    creoleSubtitle: 'Acrylic on card',
     year: '2019',
-    medium: 'Glazed oil and wax on tall vertical linen canvas',
+    medium: 'Acrylic on card',
     surfaceType: 'impasto-acrylic',
     dimensions: '66.4 × 28.6 cm',
     accessionNumber: 'RM.ART.2019.04',
@@ -1368,7 +1368,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.082,
     roughness: 0.48,
     curatorialNote:
-      'Signed with the artist’s "JR" monogram at the base, this tall totemic canvas evokes Brancusi and Arp, carving out curvilinear planes of sea-green, sage, and Prussian blue.',
+      'Acrylic on card by Justin Reddy, presenting curvilinear planes and biomorphic forms in sea-green and Prussian blue.',
     textureNote:
       'Silky wax-oil finish with smooth curvilinear gradients in malachite, celadon, and deep teal.',
     paletteSwatches: ['#2F7568', '#5E8873', '#1A3F39', '#8DB09B'],
@@ -1377,10 +1377,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-05-analytical-cubist-guitar',
     indexNumber: '43',
-    title: 'Analytical Cubist Guitar Still Life (Art 05)',
-    creoleSubtitle: 'Classical cubist still life with guitar and treble clef',
+    title: 'Still/Life with Guitar',
+    creoleSubtitle: 'Tempera on paper',
     year: '2020',
-    medium: 'Oil and charcoal on gessoed board',
+    medium: 'Tempera on paper',
     surfaceType: 'impasto-acrylic',
     dimensions: '53.2 × 45.3 cm',
     accessionNumber: 'RM.ART.2020.05',
@@ -1398,7 +1398,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.07,
     roughness: 0.6,
     curatorialNote:
-      'In the grand tradition of Georges Braque and Juan Gris, Reddy arranges a violin/guitar body inscribed with "guitar" lettering alongside a swirling treble clef in warm umbers, ochres, and charcoal shadows.',
+      'Tempera on paper still-life by Justin Reddy, deconstructing guitar form and musical motifs in warm umbers and ochres.',
     textureNote:
       'Dry chalky gesso scumbles with sharp charcoal draftsmanship, warm caramel glaze on the instrument, and clean script lettering.',
     paletteSwatches: ['#6B4B32', '#9E6D43', '#241D17', '#C4A887'],
@@ -1407,10 +1407,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-06-midnight-chamber-pitcher',
     indexNumber: '44',
-    title: 'Midnight Chamber & Cobalt Pitcher (Art 06)',
-    creoleSubtitle: 'Expressionist nocturnal interior with reclining figure',
+    title: 'Still-Life with Doll',
+    creoleSubtitle: 'Powder, glue, card',
     year: '2020',
-    medium: 'Heavy body oil and tempera on primed linen',
+    medium: 'Powder, glue, card',
     surfaceType: 'impasto-acrylic',
     dimensions: '69.3 × 56.5 cm',
     accessionNumber: 'RM.ART.2020.06',
@@ -1428,7 +1428,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.085,
     roughness: 0.44,
     curatorialNote:
-      'A deep nocturnal palette of cobalt blue, violet black, and warm butter yellow depicts an intimate bedroom chamber with a glass carafe and a sleeping islander.',
+      'Powder, glue, card still-life by Justin Reddy, rendered in deep cobalt, violet, and warm earthen tones.',
     textureNote:
       'Rich painterly oil brushmarks with thick cobalt impasto and soft gouache washes across the sheets and pitcher.',
     paletteSwatches: ['#293B62', '#1B1720', '#C4B47B', '#8E484A'],
@@ -1437,10 +1437,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-07-cubist-palm-pods',
     indexNumber: '45',
-    title: 'Cubist Palm & Tropic Pods (Art 07)',
-    creoleSubtitle: 'Geometric botanical study of Seychelles endemic flora',
+    title: 'Composition n0. 6',
+    creoleSubtitle: 'Acrylic on card',
     year: '2021',
-    medium: 'Oil and casein on wood board',
+    medium: 'Acrylic on card',
     surfaceType: 'impasto-acrylic',
     dimensions: '54.0 × 36.5 cm',
     accessionNumber: 'RM.ART.2021.07',
@@ -1458,7 +1458,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.076,
     roughness: 0.52,
     curatorialNote:
-      'Faceted angular planes of turquoise and moss green describe tropical palm fronds sheltering glowing teardrop seed pods in yellow and ultramarine.',
+      'Acrylic on card painting by Justin Reddy: geometric composition of faceted angular planes and botanical rhythms.',
     textureNote:
       'Smooth matte casein and oil glazes with sharp angular ridges and glowing saffron highlights.',
     paletteSwatches: ['#3A6D63', '#1B353A', '#8F9B51', '#D6B441'],
@@ -1467,10 +1467,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-08-nocturne-chalice-reddy',
     indexNumber: '46',
-    title: 'Nocturne Still Life with Chalice (Art 08)',
-    creoleSubtitle: 'Signed Reddy, deep mahogany cubist tableware composition',
+    title: 'Cubist Still-Life',
+    creoleSubtitle: 'Tempera on paper',
     year: '2021',
-    medium: 'Oil and dry pigment on board, signed Reddy',
+    medium: 'Tempera on paper',
     surfaceType: 'impasto-acrylic',
     dimensions: '40.3 × 45.7 cm',
     accessionNumber: 'RM.ART.2021.08',
@@ -1488,7 +1488,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.078,
     roughness: 0.5,
     curatorialNote:
-      'Signed "Reddy" in red at bottom right, this brooding, velvety cubist still life features a silver-white chalice, teapot handle, and intersecting circular arcs rendered in deep burnt mahogany and copper tones.',
+      'Tempera on paper still-life by Justin Reddy: circular arcs and vessel silhouettes in deep burnt mahogany and copper tones.',
     textureNote:
       'Velvety smoky glazes over dark mahogany ground with metallic silver-white highlights on the cup rim.',
     paletteSwatches: ['#52241E', '#1C0E0B', '#8A4134', '#9E8883'],
@@ -1497,10 +1497,10 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'art-09-vibration-dynamic-lines',
     indexNumber: '47',
-    title: 'Vibration of Lines: Dynamic Linework Study (Art 09)',
-    creoleSubtitle: 'Automatic gestural ink web in orange, teal, and charcoal',
+    title: 'Scribble',
+    creoleSubtitle: 'Marker',
     year: '2022',
-    medium: 'Continuous line ink and watercolor on handmade cotton paper',
+    medium: 'Marker',
     surfaceType: 'charcoal-paper',
     dimensions: '63.0 × 43.5 cm',
     accessionNumber: 'RM.ART.2022.09',
@@ -1518,7 +1518,7 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
     bumpScale: 0.045,
     roughness: 0.88,
     curatorialNote:
-      'An energetic labyrinth of spontaneous gestural lines intertwining copper-orange, cerulean blue, and dense black calligraphy to manifest two dancing figures in motion.',
+      'Marker drawing by Justin Reddy: spontaneous continuous lines intertwining energetic gestural marks in motion.',
     textureNote:
       'Continuous spiraling pen and brush lines layered like woven twine over soft absorbent watercolor paper.',
     paletteSwatches: ['#1C3737', '#B85324', '#2F6787', '#ECE4D4'],
@@ -1527,9 +1527,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'promenade-bazar-victoria',
     indexNumber: '48',
-    title: 'Promenad dan Bazar (Victoria Market Promenade)',
+    title: 'Market Street en Fauve',
     creoleSubtitle: 'Island figures in radiant coral dresses under equatorial light',
-    year: '2021',
+    year: '2026',
     medium: 'Impasto acrylic and oil pigment on primed canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '120.0 × 90.0 cm (3:4 vertical plate)',
@@ -1557,9 +1557,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'lamer-kourpa-shoreline-cumulus',
     indexNumber: '49',
-    title: 'Lamer Kourpa (Granite Shoreline & Cumulus Cloud)',
+    title: 'Tropical Seascape',
     creoleSubtitle: 'Sunlit granite formation and coastal surf under trade wind skies',
-    year: '2022',
+    year: '2026',
     medium: 'Acrylic, dry pigment, and coastal chalk on linen',
     surfaceType: 'impasto-acrylic',
     dimensions: '130.0 × 95.0 cm (4:3 horizontal plate)',
@@ -1587,9 +1587,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'hauling-pirogue-cooperative',
     indexNumber: '50',
-    title: 'Lartet Pirog (Hauling the Pirogue: Coral Shore Cooperative)',
+    title: 'Annou Pous Pirog',
     creoleSubtitle: 'Island fishermen united in hauling their wooden boat onto the sand',
-    year: '2020',
+    year: '2026',
     medium: 'Synthetic polymer and acrylic on stretched canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '150.0 × 110.0 cm (4:3 horizontal plate)',
@@ -1617,9 +1617,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'retour-des-kazye-fishermen',
     indexNumber: '51',
-    title: 'Retour des Kazye (Fishermen with Bamboo Traps)',
+    title: 'Vannswet',
     creoleSubtitle: 'Artisanal fishermen walking the shallows with woven fish traps and fresh catch',
-    year: '2021',
+    year: '2026',
     medium: 'Oil and acrylic on heavy cotton duck',
     surfaceType: 'impasto-acrylic',
     dimensions: '140.0 × 100.0 cm (4:3 horizontal plate)',
@@ -1647,9 +1647,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'maison-creole-la-bastille',
     indexNumber: '52',
-    title: 'Maison Créole: La Bastille dan Soley (Radiant Creole Architecture)',
+    title: 'Lakaz Kreol',
     creoleSubtitle: 'Iconic high-pitched veranda architecture blazing in equatorial yellow and vermilion',
-    year: '2023',
+    year: '2026',
     medium: 'Impasto acrylic, lacquer, and graphite on heavy canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '125.0 × 120.0 cm (1:1 square plate)',
@@ -1677,9 +1677,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'memwar-takamaka-heritage',
     indexNumber: '53',
-    title: 'Memwar Takamaka: Heritage Veranda & Canopy Light',
+    title: 'Peser',
     creoleSubtitle: 'Vertical masterwork from Justin Reddy’s Mahé studio capture',
-    year: '2023',
+    year: '2026',
     medium: 'Impasto acrylic, pastel, and raw graphite on canvas',
     surfaceType: 'impasto-acrylic',
     dimensions: '135.0 × 100.0 cm (3:4 vertical plate)',
@@ -1707,9 +1707,9 @@ export const REDDYMADE_ARTWORKS: ArtworkItem[] = [
   {
     id: 'ble-losean-granite-tide',
     indexNumber: '54',
-    title: 'Blé Losean: Indian Ocean Swell & Granite Reef',
+    title: 'Larsitektir Kreol',
     creoleSubtitle: 'Vibrant modernist coastal plate in electric cobalt, turquoise, and sienna',
-    year: '2024',
+    year: '2026',
     medium: 'Impasto acrylic and gouache on stretched linen',
     surfaceType: 'impasto-acrylic',
     dimensions: '120.0 × 90.0 cm (3:4 vertical plate)',

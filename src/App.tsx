@@ -528,14 +528,17 @@ export default function App() {
             <a href="#highlights" className="hover:text-white transition-colors">
               Featured Highlights
             </a>
-            <a href="#preview-3d" className="hover:text-white transition-colors">
+            <button
+              onClick={() => handleEnter3DPavilion()}
+              className="hover:text-white transition-colors cursor-pointer"
+            >
               3D Pavilion
-            </a>
+            </button>
             <a href="#catalogue" className="hover:text-white transition-colors">
               Exhibition Catalogue ({REDDYMADE_ARTWORKS.length})
             </a>
-            <a href="#series-analysis" className="hover:text-white transition-colors">
-              Media Series
+            <a href="#materials" className="hover:text-white transition-colors">
+              Material Language
             </a>
           </nav>
 
@@ -592,13 +595,15 @@ export default function App() {
             >
               Featured Highlights
             </a>
-            <a
-              href="#preview-3d"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded-lg hover:bg-white/5 text-[#FBF9F5]"
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                handleEnter3DPavilion();
+              }}
+              className="block w-full text-left px-3 py-2 rounded-lg hover:bg-white/5 text-[#FBF9F5]"
             >
               3D Pavilion Experience
-            </a>
+            </button>
             <a
               href="#catalogue"
               onClick={() => setMobileMenuOpen(false)}
@@ -607,11 +612,11 @@ export default function App() {
               Complete Catalogue ({REDDYMADE_ARTWORKS.length})
             </a>
             <a
-              href="#series-analysis"
+              href="#materials"
               onClick={() => setMobileMenuOpen(false)}
               className="block px-3 py-2 rounded-lg hover:bg-white/5 text-[#FBF9F5]"
             >
-              Media Series Analysis
+              Material Language
             </a>
             <button
               onClick={() => {
@@ -708,76 +713,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* 4. SECTION 3: 3D VIRTUAL PAVILION PREVIEW PORTAL */}
-      <section id="preview-3d" className="py-16 sm:py-20 px-4 sm:px-6 md:px-8 border-b border-white/10 bg-gradient-to-b from-[#181512] to-[#12100E]">
-        <div className="max-w-7xl mx-auto space-y-8">
-          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
-            <div className="space-y-2 max-w-2xl">
-              <div className="flex items-center gap-2 text-xs font-mono-tabular uppercase tracking-widest text-[#D97706]">
-                <Compass className="w-3.5 h-3.5" />
-                <span>3D ARCHITECTURAL PAVILION · MAHÉ ISLAND</span>
-              </div>
-              <h2 className="text-3xl sm:text-4xl font-serif-display font-medium text-[#FBF9F5]">
-                Step Inside the 3D Virtual Pavilion
-              </h2>
-              <p className="text-xs sm:text-sm text-[#A8A29E] leading-relaxed">
-                Justin Reddy’s flagship architectural charcoal drawings and vivid granite acrylics are installed in an authentic 18×18m virtual open-air pavilion in Seychelles. Featuring daylight simulation, raking spotlights, and binaural soundscapes.
-              </p>
-            </div>
-
-            <button
-              onClick={() => handleEnter3DPavilion()}
-              className="px-6 py-3.5 rounded-xl bg-[#D97706] hover:bg-[#B45309] text-white text-sm font-semibold flex items-center gap-2 shadow-xl shadow-[#D97706]/20 transition-all self-start active:scale-95 cursor-pointer whitespace-nowrap"
-            >
-              <Compass className="w-5 h-5" />
-              <span>Launch Fullscreen 3D Walkthrough</span>
-            </button>
-          </div>
-
-          {/* Interactive 3D Preview Frame */}
-          <div className="relative w-full h-[380px] sm:h-[460px] md:h-[520px] rounded-2xl overflow-hidden border border-white/15 shadow-2xl bg-black">
-            <GalleryScene3D
-              selectedArtwork={null}
-              onSelectArtwork={handleSelectArtwork}
-              lightingPreset={lightingPreset}
-              rakingLightActive={rakingLightActive}
-              reliefIntensity={reliefIntensity}
-              guidedTourActive={false}
-              onStopGuidedTour={() => {}}
-            />
-
-            {/* Overlay banner prompting full immersion */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent pointer-events-none flex flex-col justify-end p-6 sm:p-8">
-              <div className="max-w-xl space-y-3">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-xs font-mono-tabular text-[#FBF9F5]">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  <span>3D Pavilion Live Preview · Click to Enter First-Person Mode</span>
-                </div>
-                <h3 className="text-xl sm:text-2xl font-serif-display font-semibold text-white">
-                  First-Person 3D Virtual Walkthrough
-                </h3>
-                <div className="flex items-center gap-3 pt-1 pointer-events-auto">
-                  <button
-                    onClick={() => handleEnter3DPavilion()}
-                    className="px-5 py-2.5 rounded-lg bg-white text-[#1C1917] hover:bg-[#FBF9F5] text-xs font-semibold flex items-center gap-2 transition-all shadow-md active:scale-95 cursor-pointer"
-                  >
-                    <Maximize2 className="w-4 h-4" />
-                    <span>Enter Fullscreen 3D</span>
-                  </button>
-                  <a
-                    href="#catalogue"
-                    className="px-4 py-2.5 rounded-lg bg-white/10 hover:bg-white/20 text-white text-xs font-medium transition-colors"
-                  >
-                    <span>Scroll to Catalogue</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 5. SECTION 4: COMPLETE EXHIBITION CATALOGUE (ON-PAGE) */}
+      {/* 4. SECTION 3: COMPLETE EXHIBITION CATALOGUE (ON-PAGE) */}
       <section
         id="catalogue"
         ref={catalogueSectionRef}
@@ -967,145 +903,39 @@ export default function App() {
         </div>
       </section>
 
-      {/* 6. SECTION 5: MEDIA SERIES ANALYSIS */}
-      <section id="series-analysis" className="py-16 sm:py-20 px-4 sm:px-6 md:px-8 border-b border-white/10 bg-[#12100E]">
-        <div className="max-w-7xl mx-auto space-y-12">
-          <div className="space-y-3 max-w-3xl">
-            <div className="text-xs font-mono-tabular uppercase tracking-widest text-[#D97706]">
-              SIX CREATIVE PILLARS
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif-display font-medium text-[#FBF9F5]">
+      {/* 5. SECTION 4: THE DIVERSE MATERIAL LANGUAGE OF JUSTIN REDDY */}
+      <section id="materials" className="py-20 sm:py-24 px-4 sm:px-6 md:px-8 border-b border-white/10 bg-[#12100E]">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div className="space-y-3">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif-display font-medium text-[#FBF9F5] leading-tight">
               The Diverse Material Language of Justin Reddy
             </h2>
-            <p className="text-xs sm:text-sm text-[#A8A29E] leading-relaxed">
-              Justin Reddy’s four decades of artistic production span foundational drawing to high-relief sculpture and Dada-inspired ready-made assemblages.
-            </p>
+            <div className="w-16 h-0.5 bg-[#D97706]" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 01
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                Heritage Charcoal &amp; Graphite
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Meticulous archival renderings of timber jalousie shutters, coral-stone pillars, and ox-carts on La Digue that preserve vanishing vernacular Creole architecture.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('shading')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Heritage Drawings</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 02
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                Hardwood Totems &amp; Mask Carvings
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Sculpted from local island tree trunks and driftwood, these masks and 1.6m standing figures feature deep gouge cuts, ceremonial horn crowns, and soot patinas.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('sculpture')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Wood Sculptures</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 03
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                Coral Plaster &amp; Bas-Reliefs
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Cast from mineral lime and coral sand mortar, featuring farm tools and the Latin motto &ldquo;Labor Omnia Vincit&rdquo; honoring traditional island manual labor.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('plaster')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Plaster Reliefs</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 04
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                Reclaimed Timber Portraits
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Portraits painted directly onto weathered boat planks and saffron panels, incorporating nail holes and maritime patinas into the human face.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('face')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Face &amp; Panel Portraits</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 05
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                ReadyMade Cardboard &amp; Cargo Stencils
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Reclaiming international cargo packaging stamped &ldquo;Dengan Cermat&rdquo; and &ldquo;Sensational Deals&rdquo;, transforming shipping waste into profound pop commentary.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('explore')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Ready-Made Explorations</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#1C1814] border border-white/10 space-y-3 shadow-xl">
-              <span className="text-[11px] font-mono-tabular uppercase px-2 py-0.5 rounded bg-[#D97706]/20 text-[#D97706]">
-                Series 06
-              </span>
-              <h3 className="text-xl font-serif-display font-semibold text-white">
-                Modernist Cubism &amp; Impasto Acrylics
-              </h3>
-              <p className="text-xs text-[#A8A29E] leading-relaxed">
-                Braque-inspired analytical still lifes with guitars alongside radiant impasto paintings capturing the Precambrian granite boulders of Anse Source d’Argent.
-              </p>
-              <button
-                onClick={() => handleFilterCategoryAndScroll('art')}
-                className="text-xs text-[#D97706] hover:underline flex items-center gap-1 font-medium pt-1"
-              >
-                <span>View Modernist &amp; Acrylic Works</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
+          <div className="space-y-6 text-base sm:text-lg text-[#D6CEBE] font-serif-display leading-relaxed">
+            <p>
+              Across five decades of artistic practice, Justin Reddy has explored a wide range of materials, from paper and papier-mâché to plastic bottle caps, discarded packaging, printed matter and sand.
+            </p>
+            <p>
+              His practice is characterised by a continuing investigation into what materials can become beyond their conventional uses. Through experimentation, he discovers processes, relationships and systems that can lead to weaving, construction, assemblage, permutation, impression, transfer and repetition.
+            </p>
+            <p>
+              Each material presents a different set of possibilities. Consequently, his work does not depend on a single technique or prescribed method. The process emerges through the encounter between the artist and the material, with experimentation capable of opening unexpected directions.
+            </p>
+            <p className="text-[#FBF9F5] font-medium pt-2 border-l-2 border-[#D97706] pl-4 italic">
+              Within this evolving practice, Reddymade represents an approach in which discarded materials become the starting point for artistic investigation and discovery.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 6. SECTION 6: CONTACT JUSTIN REDDY (BOTTOM ONLY) */}
+      {/* 6. SECTION 5: CONTACT JUSTIN REDDY (BOTTOM ONLY) */}
       <section id="contact" className="py-20 px-4 sm:px-6 md:px-8 border-b border-white/10 bg-[#14110F]">
         <div className="max-w-4xl mx-auto text-center space-y-10">
           <div className="space-y-3">
             <div className="text-xs font-mono-tabular uppercase tracking-widest text-[#D97706]">
-              Direct Inquiries amp;
+              Direct Inquiries
             </div>
             <h2 className="text-3xl sm:text-5xl font-serif-display font-medium text-[#FBF9F5]">
               Contact Justin Reddy
