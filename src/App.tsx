@@ -985,76 +985,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* 7. FOOTER */}
-      <footer className="py-12 px-4 sm:px-6 md:px-8 border-t border-white/10 bg-[#0C0A09] text-xs text-[#78716C]">
-        <div className="max-w-7xl mx-auto space-y-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-white/10">
-            <div className="space-y-1 text-center md:text-left">
-              <div className="font-serif-display text-lg font-semibold text-[#FBF9F5]">
-                ReddyMade — Justin Reddy Studio Archive
-              </div>
-              <p>Mahé, Seychelles · Chronicling Indian Ocean Vernacular &amp; Modernist Form</p>
-            </div>
 
-            {/* Contact links with logos */}
-            <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
-              <a
-                href="mailto:justinsreddy@yahoo.co.uk"
-                className="flex items-center gap-1.5 text-[#D6CEBE] hover:text-white transition-colors"
-              >
-                <Mail className="w-3.5 h-3.5 text-[#D97706]" />
-                <span>justinsreddy@yahoo.co.uk</span>
-              </a>
-              <a
-                href="https://wa.me/2482800101"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-[#D6CEBE] hover:text-emerald-400 transition-colors"
-              >
-                <svg className="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24">
-                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.44 0-2.85-.38-4.09-1.11l-.29-.17-3.04.8 1.05-2.96-.19-.3a8.21 8.21 0 0 1-1.26-4.5c0-4.54 3.7-8.24 8.24-8.24zm4.51 11.58c-.25-.13-1.47-.72-1.7-.8-.23-.09-.39-.13-.56.13-.17.25-.65.8-.8 1-.14.16-.29.18-.54.06-.25-.13-1.07-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.3-.23.25-.87.85-.87 2.08s.89 2.41 1.01 2.58c.13.16 1.75 2.67 4.24 3.74.59.25 1.05.4 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z" />
-                </svg>
-                <span>+2482800101</span>
-              </a>
-              <a
-                href="https://instagram.com/autreintsgallery"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-[#D6CEBE] hover:text-pink-400 transition-colors"
-              >
-                <Instagram className="w-3.5 h-3.5 text-pink-400" />
-                <span>@autreintsgallery</span>
-              </a>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap items-center justify-between gap-4">
-            <div className="flex flex-wrap items-center gap-6">
-              <a href="#monograph" className="hover:text-white transition-colors">
-                Monograph
-              </a>
-              <a href="#highlights" className="hover:text-white transition-colors">
-                Highlights
-              </a>
-              <button
-                onClick={() => handleEnter3DPavilion()}
-                className="hover:text-white transition-colors cursor-pointer"
-              >
-                3D Pavilion
-              </button>
-              <a href="#catalogue" className="hover:text-white transition-colors">
-                Catalogue ({REDDYMADE_ARTWORKS.length})
-              </a>
-              <a href="#materials" className="hover:text-white transition-colors">
-                Material Language
-              </a>
-            </div>
-            <div className="text-right text-[#78716C] text-xs">
-              © {new Date().getFullYear()} Justin Reddy
-            </div>
-          </div>
-        </div>
-      </footer>
 
       {/* Study Modal */}
       <CatalogModal
